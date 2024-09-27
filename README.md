@@ -21,8 +21,8 @@ C++ program to find permutations
     - After swapping, we recursively call `generatePermutations` with `left + 1` to fix the next character.
     - We perform a swap again to backtrack and restore the original string for the next iteration.
 3. Main Function
-Input:
-Prompts the user to enter a string.
+  - Input:
+    - Prompts the user to enter a string.
   - Permutation Generation:
     - Calls `generatePermutations` with initial indices `0` and `input.length() - 1`.
   - Sorting:
